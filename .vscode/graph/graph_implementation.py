@@ -6,6 +6,11 @@ class NodeTree:
         self.designation = designation
 
     def add_child(self, child) -> None:
+        """add child to current node.
+
+        Args:
+            child (NodeTree): input node of graph
+        """
         self.children.append(child)
         child.parent = self
         #self.designation = child.designation
@@ -49,3 +54,11 @@ root.add_child(member2)
 #print(root.children[1].parent)
 #print(member1.parent)
 root.print_tree("both")
+
+import sys
+print("Python version")
+print (sys.version)
+print("Version info.")
+print (sys.version_info)
+
+print("hello world")
