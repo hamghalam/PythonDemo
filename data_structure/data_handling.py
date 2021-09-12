@@ -20,8 +20,8 @@ with open ('data_structure/nyc_weather.csv','r') as f:
            max_temp_jan = k
        sum = v + sum
        n += 1
-    print(f'avg = {sum/(n-1)}') 
-    #print(sum,n-1)   
+    print(f'avg = {sum/(n-1)}')
+    #print(sum,n-1)
     print(max_temp_jan, max_temp)
 
     print(data_weather['Jan 1'])
@@ -38,3 +38,4 @@ with open ('data_structure/poem.txt','r') as f:
         else:
             dict_cnt[element] = dict_cnt[element] + 1
     print(dict_cnt)
+
