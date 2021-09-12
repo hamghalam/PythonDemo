@@ -1,5 +1,12 @@
 class NodeTree:
     def __init__(self, data, designation) -> None:
+        """create a graph node.
+        
+        Args:
+            data (float): input value
+            designation (float): input value
+        Returns
+        """
         self.data = data
         self.children = []
         self.parent = None
@@ -61,4 +68,3 @@ print (sys.version)
 print("Version info.")
 print (sys.version_info)
 
-print("hello world")
